@@ -1,0 +1,22 @@
+name: 'cs2-rcon-action'
+author: 'Miles Izzo <mgi@mgi.net.au>'
+description: 'Execute CS2 server RCON commands.'
+inputs:
+  host:
+    description: 'CS2 host'
+    required: true
+  port:
+    description: 'RCON port'
+    required: true
+  password:
+    description: 'RCON password'
+    required: true
+  command:
+    description: 'Command to execute'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  color: 'blue'
+  icon: 'command'
