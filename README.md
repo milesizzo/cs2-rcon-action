@@ -1,6 +1,6 @@
 # cs2-rcon-action
 
-Execute RCON commands on a CS2 server.
+Execute RCON commands on a CS2 server. Based on https://github.com/gorcon/rcon-cli.
 
 ## Example usage
 
